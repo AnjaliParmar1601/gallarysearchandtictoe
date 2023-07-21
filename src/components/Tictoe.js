@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
+import Header from './Header'
 export default function Tictoe() {
     const [box , setBox]= useState(Array(9).fill(''))
     const [move,setMove]=useState('x')
@@ -58,6 +59,7 @@ export default function Tictoe() {
     }
   return (
     <>
+    <Header />
     <h1 className='text-center'>Tic Tac Toe </h1>
     <table>
         <tbody>

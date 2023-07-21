@@ -9,9 +9,8 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/gallary">Gallary</NavLink>
+            {/* <NavLink to="/gallary">Gallary</NavLink> */}
             <NavLink to="/tictoe">Tictoe</NavLink>
-            <NavLink to="/message">Message</NavLink>
 
           </Nav>
         </Navbar.Collapse>
