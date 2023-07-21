@@ -1,7 +1,42 @@
 .App {
   text-align: center;
 }
-
+.navbar-collapse div a{
+   font-size: 16px;
+   color:#61dafb;
+   padding:10px 30px;
+   text-decoration: none;
+}
+.container{
+  margin:0 auto;
+  text-align: center;
+}
+.container input{
+  margin:20px 0;
+}
+.container .main-div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:30px;
+}
+table{
+  margin:0 auto;
+  margin-top:5%;
+  background-color: black;
+}
+table tr td{
+  border:1px solid white;
+  height:120px;
+  width:120px;
+  text-align: center;
+  font-size:25px;
+  color:yellow;
+}
+.modal .modal-dialog{
+   margin-top:15%;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +70,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
